@@ -1,0 +1,19 @@
+.form-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0; /* Remove space between checkbox and text */
+  margin-left: -35px; /* Adjust this value to move it left */
+}
+
+.form-checkbox input[type="checkbox"] {
+
+  width: 20px; /* Adjust checkbox size */
+  height: 20px;
+}
+
+.form-checkbox span {
+  font-size: 18px; /* Adjust text size */
+  color: var(--text-color);
+  margin: 0; /* Ensure no margin */
+  padding: 0; /* Ensure no padding */
+}
